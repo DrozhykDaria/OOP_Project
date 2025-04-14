@@ -10,8 +10,6 @@ C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\TestProject_Food_delivery
 C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\TestProject_Food_delivery\bin\Debug\net9.0-windows\Food_delivery.runtimeconfig.json
 C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\TestProject_Food_delivery\bin\Debug\net9.0-windows\Food_delivery.exe
 C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\TestProject_Food_delivery\bin\Debug\net9.0-windows\testhost.exe
-C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\TestProject_Food_delivery\bin\Debug\net9.0-windows\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
-C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\TestProject_Food_delivery\bin\Debug\net9.0-windows\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
 C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\TestProject_Food_delivery\bin\Debug\net9.0-windows\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\TestProject_Food_delivery\bin\Debug\net9.0-windows\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\TestProject_Food_delivery\bin\Debug\net9.0-windows\Microsoft.TestPlatform.AdapterUtilities.dll

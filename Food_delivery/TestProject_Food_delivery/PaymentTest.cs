@@ -20,36 +20,45 @@ namespace TestProject_Food_delivery
 
         // отримання статусу платежу
         [TestMethod]
-        public void GetStatus_ShouldFail()
+        public void GetStatus_ShouldReturnNotStartedInitially()
         {
-            Assert.Fail("Test not implemented");
+            var result = _payment.GetStatus();
+            Assert.AreEqual("NotStarted", result);
         }
 
         // перевірки встановлення статусу платежу
         [TestMethod]
-        public void SetStatus_ShouldFail()
+        public void SetStatus_ShouldUpdateStatus()
         {
-            Assert.Fail("Test not implemented");
+            string newStatus = "Success";
+            _payment.SetStatus(newStatus);
+
+            var result = _payment.GetStatus();
+            Assert.AreEqual(newStatus, result);
         }
 
         // перевірки процесу обробки платежу
         [TestMethod]
-        public void ProcessPayment_ShouldFail()
+        public void ProcessPayment_ShouldProcessPaymentSuccessfully()
         {
             decimal amount = 100.50m;
             string paymentMethod = "Credit Card";
 
-            Assert.Fail("Test not implemented");
+            var result = _payment.ProcessPayment(amount, paymentMethod);
+
+            Assert.IsTrue(result);
+            Assert.AreEqual("Success", _payment.GetStatus());
         }
 
         [TestMethod]
-        public void IPayment_ProcessPayment_ShouldFail()
+        public void IPayment_ProcessPayment_ShouldallProcessPayment()
         {
             IPayment payment = _payment;
             decimal amount = 200.00m;
             string paymentMethod = "PayPal";
 
-            Assert.Fail("Test not implemented");
+            payment.ProcessPayment(amount, paymentMethod);
+            Assert.AreEqual("Success", _payment.GetStatus());
         }
     }
 }

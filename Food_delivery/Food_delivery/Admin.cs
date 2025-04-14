@@ -10,14 +10,22 @@ namespace Food_delivery
     {
         public string Role { get; } = "Адміністратор";
 
+        // Метод для керування користувачами
         public bool ManageUsers(List<Customer> users)
         {
-            throw new NotImplementedException();
+            if (users == null) return false;
+
+            // Наприклад, перевіримо, чи в списку є хоча б один користувач
+            return users.Count > 0;
         }
 
+        // Метод для керування меню
         public bool ManageMenu(List<FoodItem> items)
         {
-            throw new NotImplementedException();
+            if (items == null) return false;
+
+            // Аналогічно, перевіримо наявність хоча б однієї страви
+            return items.Count > 0;
         }
     }
 }

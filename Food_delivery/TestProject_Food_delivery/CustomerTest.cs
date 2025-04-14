@@ -7,62 +7,69 @@ using System.Threading.Tasks;
 
 namespace TestProject_Food_delivery
 {
-        [TestClass]
-        public class CustomerTest
+    [TestClass]
+    public class CustomerTest
+    {
+        private Customer _customer;
+
+        [TestInitialize]
+        public void Setup()
         {
-            private Customer _customer;
-
-            [TestInitialize]
-            public void Setup()
-            {
-                _customer = new Customer();
-            }
+            _customer = new Customer();
+        }
         // перевірка емейлу
-            [TestMethod]
-            public void GetEmail_ShouldFail()
-            {
-                Assert.Fail("Test not implemented");
-            }
+        [TestMethod]
+        public void GetEmail_ShouldReturnCorrectEmail()
+        {
+            var expected = "test@example.com";
+            var actual = _customer.GetEmail();
+            Assert.AreEqual(expected, actual);
+        }
         // перевірка ім'я клієнта
-            [TestMethod]
-            public void GetFirstName_ShouldFail()
-            {
-                Assert.Fail("Test not implemented");
-            }
+        [TestMethod]
+        public void GetFirstName_ShouldReturnCorrectFirstName()
+        {
+            var expected = "Іван";
+            var actual = _customer.GetFirstName();
+            Assert.AreEqual(expected, actual);
+        }
 
-            [TestMethod]
-            public void GetLastName_ShouldFail()
-            {
-                Assert.Fail("Test not implemented");
-            }
+        [TestMethod]
+        public void GetLastName_ShouldReturnCorrectLastName()
+        {
+            var expected = "Іванов";
+            var actual = _customer.GetLastName();
+            Assert.AreEqual(expected, actual);
+        }
 
-            [TestMethod]
-            public void GetBirthDate_ShouldFail()
-            {
-                Assert.Fail("Test not implemented");
-            }
+        [TestMethod]
+        public void GetBirthDate_ShouldReturnCorrectBirthDate()
+        {
+            var expected = "01.01.1990";
+            var actual = _customer.GetBirthDate();
+            Assert.AreEqual(expected, actual);
+        }
 
-            [TestMethod]
-            public void GetPhone_ShouldFail()
-            {
-                Assert.Fail("Test not implemented");
-            }
+        [TestMethod]
+        public void GetPhone_ShouldReturnCorrectPhone()
+        {
+            var expected = "+380123456789";
+            var actual = _customer.GetPhone();
+            Assert.AreEqual(expected, actual);
+        }
         //перевірка аутентифікації клієнта
         [TestMethod]
-            public void Authenticate_ShouldFail()
-            {
-                // Arrange
-                string email = "test@example.com";
-                string password = "password123";
-
-                // Act & Assert
-                Assert.Fail("Test not implemented");
-            }
-
-            [TestMethod]
-            public void CheckStatus_ShouldFail()
-            {
-                Assert.Fail("Test not implemented");
-            }
+        public void Authenticate_ShouldReturnTrue_WhenCredentialsAreCorrect()
+        {
+            var result = _customer.Authenticate("test@example.com", "password123");
+            Assert.IsTrue(result);
         }
+
+        [TestMethod]
+        public void CheckStatus_ShouldReturnFalse_WhenCredentialsAreWrong()
+        {
+            var result = _customer.Authenticate("wrong@example.com", "wrongpass");
+            Assert.IsFalse(result);
+        }
+    }
 }

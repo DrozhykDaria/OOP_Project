@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Food_delivery
 {
-    public interface IPayment
+    public class PaymentProcessor : IPayment
     {
-        void ProcessPayment(decimal amount, string paymentMethod);
+        public void ProcessPayment(decimal amount, string paymentMethod)
+        {
+            Console.WriteLine($"Payment of {amount:C} made using {paymentMethod}");
+        }
     }
+
 }

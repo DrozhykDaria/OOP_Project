@@ -20,19 +20,47 @@ namespace TestProject_Food_delivery
 
         // перевірка додавання страви до меню
         [TestMethod]
-        public void AddFoodItem_ShouldFail()
+        public void AddFoodItem_ShouldAddItemToMenu()
         {
-            var foodItem = new FoodItem();
-
-            Assert.Fail("Test not implemented");
+            var foodItem = new FoodItem("Pizza", "Delicious cheese pizza", 10.99m);
+            bool result = _menu.AddFoodItem(foodItem);
+            Assert.IsTrue(result); 
+            Assert.AreEqual(1, _menu.Items.Count); 
+            Assert.AreEqual(foodItem, _menu.Items[0]);
         }
         // перевірка видалення страви з меню
         [TestMethod]
-        public void RemoveFoodItem_ShouldFail()
+        public void RemoveFoodItem_ShouldNotAddDuplicateItem()
         {
-            string itemName = "Pizza";
-
-            Assert.Fail("Test not implemented");
+            var foodItem = new FoodItem("Pizza", "Delicious cheese pizza", 10.99m);
+            _menu.AddFoodItem(foodItem); 
+            bool result = _menu.AddFoodItem(foodItem); 
+            Assert.IsFalse(result);
+            Assert.AreEqual(1, _menu.Items.Count); 
         }
+        /*// перевірка видалення страви з меню
+        [TestMethod]
+        public void RemoveFoodItem_ShouldRemoveItemFromMenu()
+        {
+            // Arrange
+            var foodItem = new FoodItem("Pizza", "Delicious cheese pizza", 10.99m);
+            _menu.AddFoodItem(foodItem); 
+
+            // Act
+            bool result = _menu.RemoveFoodItem("Pizza");
+
+            // Assert
+            Assert.IsTrue(result); 
+            Assert.AreEqual(0, _menu.Items.Count); 
+        }
+        // пперевірка видалення страви, якої немає в меню
+        [TestMethod]
+        public void RemoveFoodItem_ShouldNotRemoveNonExistentItem()
+        {
+            bool result = _menu.RemoveFoodItem("Pizza");
+
+            Assert.IsFalse(result); 
+            Assert.AreEqual(0, _menu.Items.Count); 
+        }*/
     }
 }

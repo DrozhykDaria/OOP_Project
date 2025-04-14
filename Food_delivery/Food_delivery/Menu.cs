@@ -12,12 +12,26 @@ namespace Food_delivery
 
         public bool AddFoodItem(FoodItem item)
         {
-            throw new NotImplementedException();
+            if (item == null || Items.Contains(item))
+                return false;
+
+            Items.Add(item);
+            return true;
         }
 
         public bool RemoveFoodItem(string itemName)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrWhiteSpace(itemName))
+                return false;
+
+            var itemToRemove = Items.FirstOrDefault(i => i.GetName() == itemName);
+            if (itemToRemove != null)
+            {
+                Items.Remove(itemToRemove);
+                return true;
+            }
+
+            return false;
         }
     }
 }

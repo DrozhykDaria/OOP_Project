@@ -13,35 +13,52 @@ namespace Food_delivery
         private string LastName;
         private DateTime BirthDate;
         private string Phone;
-
+        private string Password;
+        private bool IsAuthenticated;
+        public Customer()
+        {
+            // Демонстраційні значення, можна змінити на вхідні параметри або реальні дані
+            Email = "test@example.com";
+            FirstName = "Іван";
+            LastName = "Іванов";
+            BirthDate = new DateTime(1990, 1, 1);
+            Phone = "+380123456789";
+            Password = "password123";
+            IsAuthenticated = false;
+        }
         public string GetEmail()
         {
-            throw new NotImplementedException();
+            return Email;
         }
         public string GetFirstName()
         {
-            throw new NotImplementedException();
+            return FirstName;
         }
         public string GetLastName()
         {
-            throw new NotImplementedException();
+            return LastName;
         }
         public string GetBirthDate()
         {
-            throw new NotImplementedException();
+            return BirthDate.ToShortDateString();
         }
         public string GetPhone()
         {
-            throw new NotImplementedException();
+            return Phone;
         }
         public bool Authenticate(string email, string password)
         {
-            throw new NotImplementedException();
+            if (email == Email && password == Password)
+            {
+                IsAuthenticated = true;
+                return true;
+            }
+            return false;
         }
 
         public string CheckStatus()
         {
-            throw new NotImplementedException();
+            return IsAuthenticated ? "Користувач автентифікований" : "Користувач неавтентифікований";
         }
     }
 }

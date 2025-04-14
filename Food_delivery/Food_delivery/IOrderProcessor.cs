@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Food_delivery
 {
-    public interface IOrderProcessor
+    public class OrderProcessor : IOrderProcessor
     {
-        void ProcessOrder(string orderNumber, string status);
+        public void ProcessOrder(string orderNumber, string status)
+        {
+            Console.WriteLine($"Order {orderNumber} is now {status}");
+            // Тут можна додати логіку оновлення бази даних, надсилання повідомлень тощо
+        }
     }
 }

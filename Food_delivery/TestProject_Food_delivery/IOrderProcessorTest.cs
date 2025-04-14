@@ -10,25 +10,30 @@ namespace TestProject_Food_delivery
     [TestClass]
     public class OrderProcessorTest
     {
-        private Mock<IOrderProcessor> _mockOrderProcessor;
+        private IOrderProcessor _orderProcessor;
 
         [TestInitialize]
         public void Setup()
         {
-            _mockOrderProcessor = new Mock<IOrderProcessor>();
+            _orderProcessor = new OrderProcessor();
         }
         // перевірка обробки замовлення
         [TestMethod]
-        public void ProcessOrder_ShouldFail()
+        public void ProcessOrder_ShouldOutputCorrectMessage()
         {
             string orderNumber = "12345";
             string status = "Processing";
+            string expected = $"Order {orderNumber} is now {status}";
 
-            Assert.Fail("Test not implemented");
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+
+                _orderProcessor.ProcessOrder(orderNumber, status);
+
+                string actual = sw.ToString().Trim();
+                Assert.AreEqual(expected, actual);
+            }
         }
-    }
-
-    internal class Mock<T>
-    {
     }
 }

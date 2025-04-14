@@ -15,33 +15,39 @@ namespace TestProject_Food_delivery
             [TestInitialize]
             public void Setup()
             {
-                _foodItem = new FoodItem();
+                _foodItem = new FoodItem("Pizza", "Delicious cheese pizza", 120.50m);
             }
         // перевірка назви страви
         [TestMethod]
-            public void GetName_ShouldFail()
+            public void GetName_ShouldReturnCorrectName()
             {
-                Assert.Fail("Test not implemented");
+                var result = _foodItem.GetName();
+                Assert.AreEqual("Pizza", result);
             }
         //опис страви
         [TestMethod]
-            public void GetDescription_ShouldFail()
+            public void GetDescription_ShouldReturnCorrectDescription()
             {
-                Assert.Fail("Test not implemented");
+                var result = _foodItem.GetDescription();
+                Assert.AreEqual("Delicious cheese pizza", result);
             }
         // перевірка ціни страви
         [TestMethod]
-            public void GetPrice_ShouldFail()
+            public void GetPrice_ShouldReturnFormattedPrice()
             {
-                Assert.Fail("Test not implemented");
+                var result = _foodItem.GetPrice();
+                Assert.AreEqual("120,50", result);
             }
         //додавання інгредієнта до страви 
         [TestMethod]
-            public void AddIngredient_ShouldFail()
+            public void AddIngredient_ShouldAddIngredientSuccessfully()
             {
                 string ingredient = "Cheese";
+                var added = _foodItem.AddIngredient(ingredient);
+                var ingredients = _foodItem.GetIngredients();
 
-                Assert.Fail("Test not implemented");
+                Assert.IsTrue(added);
+                CollectionAssert.Contains(ingredients, ingredient);
             }
         }
 }

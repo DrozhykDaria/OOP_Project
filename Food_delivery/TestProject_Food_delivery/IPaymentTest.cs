@@ -11,22 +11,31 @@ namespace TestProject_Food_delivery
     [TestClass]
     public class IPaymentTest
     {
-        private Mock<IPayment> _mockPayment;
+        private IPayment _payment;
 
         [TestInitialize]
         public void Setup()
         {
-            _mockPayment = new Mock<IPayment>();
+            _payment = new PaymentProcessor();
         }
 
         // перевірка процесу оплати
         [TestMethod]
-        public void ProcessPayment_ShouldFail()
+        public void ProcessPayment_ShouldCallMethodOnce()
         {
             decimal amount = 100.50m;
-            string paymentMethod = "Credit Card";
+            string method = "Credit Card";
+            string expectedMessage = $"Payment of {amount:C} made using {method}";
 
-            Assert.Fail("Test not implemented");
+            using (StringWriter sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+
+                _payment.ProcessPayment(amount, method);
+
+                string actual = sw.ToString().Trim();
+                Assert.AreEqual(expectedMessage, actual);
+            }
         }
     }
 }
