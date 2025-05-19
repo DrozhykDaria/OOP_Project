@@ -5,8 +5,114 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Food_delivery"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Food Delivery" Height="550" Width="600"
+        WindowStartupLocation="CenterScreen">
 
+    <Window.Resources>
+        <!-- Стиль для округлих кнопок -->
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="20"
+                                Padding="5"
+                                Height="35" Width="200"
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"
+                                              RecognizesAccessKey="True"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="#FFDDDDDD"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="0 5"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#bbffa6">
+        <StackPanel Margin="30" VerticalAlignment="Center">
+
+            <TextBlock Text="Оберіть роль" 
+                       FontSize="20" 
+                       FontWeight="Bold" 
+                       HorizontalAlignment="Center"
+                       Margin="0 0 0 20"/>
+
+            <!-- Вхід як адміністратор -->
+            <TextBlock Text="Вхід для адміністратора:" 
+           Margin="0 0 0 10" 
+           FontWeight="SemiBold"/>
+
+            <TextBox x:Name="AdminEmailBox" 
+         Text="Email"
+         Foreground="Gray"
+         GotFocus="TextBox_GotFocus" 
+         LostFocus="TextBox_LostFocus"
+         Margin="0 5" Height="30"/>
+
+            <Grid Margin="0 5" Height="30">
+                <PasswordBox x:Name="AdminPasswordBox" 
+                 Margin="0" 
+                 Padding="5"
+                 PasswordChanged="AdminPasswordBox_PasswordChanged"/>
+                <TextBlock Text="Password"
+               Foreground="Gray"
+               Margin="4,2,1,0"
+               VerticalAlignment="Top"
+               IsHitTestVisible="False"
+               x:Name="AdminPasswordPlaceholder"
+               Visibility="Visible"/>
+            </Grid>
+
+            <Button Content="Увійти як Адміністратор" 
+        Click="AdminLogin_Click" 
+        Background="#116062" 
+        Foreground="White"/>
+
+            <!-- Вхід як гість -->
+            <Button Content="Увійти як Гість" 
+                    Click="GuestLogin_Click" 
+                    Background="#469594" 
+                    Foreground="White" />
+
+            <Separator Margin="0 20"/>
+
+            <!-- Реєстрація -->
+            <TextBlock Text="Поля для реєстрації:" 
+                       Margin="0 0 0 10" 
+                       FontWeight="SemiBold"/>
+
+            <TextBox x:Name="EmailBox" 
+                     Text="Email"
+                     Foreground="Gray"
+                     GotFocus="TextBox_GotFocus" 
+                     LostFocus="TextBox_LostFocus"
+                     Margin="0 5" Height="30"/>
+            <Grid Margin="0 5" Height="30">
+                <PasswordBox x:Name="PasswordBox" 
+                             Margin="0" 
+                             Padding="5"
+                             PasswordChanged="PasswordBox_PasswordChanged"/>
+                <TextBlock Text="Password"
+                           Foreground="Gray"
+                           Margin="4,2,1,0"
+                           VerticalAlignment="Top"
+                           IsHitTestVisible="False"
+                           x:Name="PasswordPlaceholder"
+                           Visibility="Visible"/>
+            </Grid>
+            <Button Content="Зареєструватись" 
+                    Click="CustomerLogin_Click" 
+                    FontWeight="SemiBold" 
+                    Margin="0 10" 
+                    Background="#50c878"  
+                    Foreground="White"/>
+        </StackPanel>
     </Grid>
 </Window>

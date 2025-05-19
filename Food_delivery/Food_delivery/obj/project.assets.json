@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\XAI\\2 course\\2 semestr\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Food_delivery.csproj",
+      "projectUniqueName": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Food_delivery.csproj",
       "projectName": "Food_delivery",
-      "projectPath": "C:\\XAI\\2 course\\2 semestr\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Food_delivery.csproj",
+      "projectPath": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Food_delivery.csproj",
       "packagesPath": "C:\\Users\\momot\\.nuget\\packages\\",
-      "outputPath": "C:\\XAI\\2 course\\2 semestr\\OOP_Project_VS\\Food_delivery\\Food_delivery\\obj\\",
+      "outputPath": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0-windows7.0": {
@@ -76,7 +76,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

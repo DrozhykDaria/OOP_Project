@@ -8,32 +8,24 @@ namespace Food_delivery
 {
     public class FoodItem
     {
-        private string _name;
-        private string _description;
-        private decimal _price;
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+
         private List<string> _ingredients;
+
         public FoodItem()
         {
             _ingredients = new List<string>();
         }
+
         public FoodItem(string name, string description, decimal price) : this()
         {
-           _name = name;
-           _description = description;
-           _price = price;
+            Name = name;
+            Description = description;
+            Price = price;
         }
-        public string GetName()
-        {
-            return _name;
-        }
-        public string GetDescription()
-        {
-            return _description;
-        }
-        public string GetPrice()
-        {
-            return _price.ToString("0.00");
-        }
+
         public bool AddIngredient(string ingredient)
         {
             if (string.IsNullOrWhiteSpace(ingredient)) return false;
@@ -41,10 +33,23 @@ namespace Food_delivery
             _ingredients.Add(ingredient);
             return true;
         }
-        // метод для отримання списку інгредієнтів
+
         public List<string> GetIngredients()
         {
             return new List<string>(_ingredients);
         }
+
+        public string GetPrice()
+        {
+            return Price.ToString("0.00");
+        }
+
+        public decimal GetPriceAsDecimal()
+        {
+            return Price;
+        }
+
+        public override string ToString() => $"{Name} - {Price} грн";
     }
+
 }

@@ -6,47 +6,11 @@ using System.Threading.Tasks;
 
 namespace Food_delivery
 {
-    public class Customer
+    public class Customer : User
     {
-        private string Email;
-        private string FirstName;
-        private string LastName;
-        private DateTime BirthDate;
-        private string Phone;
-        private string Password;
-        private bool IsAuthenticated;
-        public Customer()
-        {
-            // Демонстраційні значення, можна змінити на вхідні параметри або реальні дані
-            Email = "test@example.com";
-            FirstName = "Іван";
-            LastName = "Іванов";
-            BirthDate = new DateTime(1990, 1, 1);
-            Phone = "+380123456789";
-            Password = "password123";
-            IsAuthenticated = false;
-        }
-        public string GetEmail()
-        {
-            return Email;
-        }
-        public string GetFirstName()
-        {
-            return FirstName;
-        }
-        public string GetLastName()
-        {
-            return LastName;
-        }
-        public string GetBirthDate()
-        {
-            return BirthDate.ToShortDateString();
-        }
-        public string GetPhone()
-        {
-            return Phone;
-        }
-        public bool Authenticate(string email, string password)
+        public bool IsAuthenticated { get; private set; } = false;
+
+        public override bool Authenticate(string email, string password)
         {
             if (email == Email && password == Password)
             {
@@ -54,6 +18,16 @@ namespace Food_delivery
                 return true;
             }
             return false;
+        }
+        public Customer()
+        {
+            Email = "drozhyk@gmail.com";
+            FirstName = "Дар'я";
+            LastName = "Дрожик";
+            BirthDate = new DateTime(1990, 1, 1);
+            Phone = "+380123456789";
+            Password = "1234";
+            IsAuthenticated = false;
         }
 
         public string CheckStatus()

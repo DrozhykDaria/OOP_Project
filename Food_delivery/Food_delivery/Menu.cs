@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,8 +9,12 @@ namespace Food_delivery
 {
     public class Menu
     {
-        public List<FoodItem> Items { get; set; } = new List<FoodItem>();
+        public ObservableCollection<FoodItem> Items { get; private set; } = new ObservableCollection<FoodItem>();
 
+        public Menu()
+        {
+            Items = new ObservableCollection<FoodItem>();
+        }
         public bool AddFoodItem(FoodItem item)
         {
             if (item == null || Items.Contains(item))
@@ -19,19 +24,10 @@ namespace Food_delivery
             return true;
         }
 
-        public bool RemoveFoodItem(string itemName)
+        public void RemoveFoodItem(FoodItem item)
         {
-            if (string.IsNullOrWhiteSpace(itemName))
-                return false;
-
-            var itemToRemove = Items.FirstOrDefault(i => i.GetName() == itemName);
-            if (itemToRemove != null)
-            {
-                Items.Remove(itemToRemove);
-                return true;
-            }
-
-            return false;
+            if (item != null && Items.Contains(item))
+                Items.Remove(item);
         }
     }
 }

@@ -1,0 +1,46 @@
+﻿<Window x:Class="Food_delivery.GuestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Food_delivery"
+        mc:Ignorable="d"
+        Title="Гість – Перегляд меню" Height="400" Width="600" Background="#cffecc"
+        WindowStartupLocation="CenterScreen">
+    
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Меню (перегляд для гостей)" FontSize="18" FontWeight="Bold" Margin="0 0 0 10" Background="#cffecc"/>
+
+        <ListBox x:Name="MenuList" Grid.Row="1" MouseDoubleClick="MenuList_MouseDoubleClick"
+                 DisplayMemberPath="Name" Margin="0 0 0 10" />
+
+        <Button Content="Назад"
+        Grid.Row="2"
+        Click="BackButton_Click"
+        Width="100"
+        HorizontalAlignment="Right">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="10"
+                    Padding="5"
+                    SnapsToDevicePixels="True">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Button.Background>#767676</Button.Background>
+            <Button.Foreground>White</Button.Foreground>
+        </Button>
+
+    </Grid>
+</Window>

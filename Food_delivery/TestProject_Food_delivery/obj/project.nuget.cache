@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "phSI+6u6/+I=",
+  "dgSpecHash": "IDaAjMr3Wog=",
   "success": true,
-  "projectFilePath": "C:\\XAI\\2 course\\2 semestr\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\TestProject_Food_delivery.csproj",
+  "projectFilePath": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\TestProject_Food_delivery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\momot\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\momot\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",

@@ -25,7 +25,7 @@ namespace TestProject_Food_delivery
         {
             decimal amount = 100.50m;
             string method = "Credit Card";
-            string expectedMessage = $"Payment of {amount:C} made using {method}";
+            string expectedMessage = $"Оплата {amount:C} через {method}";
 
             using (StringWriter sw = new StringWriter())
             {

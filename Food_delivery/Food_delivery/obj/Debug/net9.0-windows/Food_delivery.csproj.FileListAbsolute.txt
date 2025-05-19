@@ -19,3 +19,62 @@ C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\n
 C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.pdb
 C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.genruntimeconfig.cache
 C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\ref\Food_delivery.dll
+C:\XAI\2 course\2 semestr\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\AdminWindow.g.cs
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.exe
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.deps.json
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.runtimeconfig.json
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.dll
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.pdb
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\AdminWindow.g.cs
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\CustomerWindow.g.cs
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\GuestWindow.g.cs
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\App.g.cs
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery_MarkupCompile.cache
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery_MarkupCompile.lref
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\AdminWindow.baml
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\CustomerWindow.baml
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\GuestWindow.baml
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.g.resources
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.AssemblyInfoInputs.cache
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.AssemblyInfo.cs
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.csproj.CoreCompileInputs.cache
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.sourcelink.json
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.dll
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\refint\Food_delivery.dll
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.pdb
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.genruntimeconfig.cache
+C:\Games\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\ref\Food_delivery.dll
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.exe
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.deps.json
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.runtimeconfig.json
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.dll
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\bin\Debug\net9.0-windows\Food_delivery.pdb
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\AdminWindow.baml
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\AdminWindow.g.cs
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\CustomerWindow.g.cs
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\GuestWindow.g.cs
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\App.g.cs
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery_MarkupCompile.cache
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery_MarkupCompile.lref
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\CustomerWindow.baml
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\GuestWindow.baml
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\MainWindow.baml
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.g.resources
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.GeneratedMSBuildEditorConfig.editorconfig
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.AssemblyInfoInputs.cache
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.AssemblyInfo.cs
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.csproj.CoreCompileInputs.cache
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.sourcelink.json
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.dll
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\refint\Food_delivery.dll
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.pdb
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\Food_delivery.genruntimeconfig.cache
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\ref\Food_delivery.dll
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\CartWindow.g.cs
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\CartWindow.baml
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\PaymentWindow.g.cs
+C:\XAI\2 course\2 semestr\oop_vs\OOP_Project_VS\Food_delivery\Food_delivery\obj\Debug\net9.0-windows\PaymentWindow.baml
