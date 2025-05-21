@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,28 +67,44 @@
       "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\guestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\guestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\bin\\Debug\\net9.0-windows\\orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Food_delivery\\bin\\Debug\\net9.0-windows\\orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\paymentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\paymentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\cartwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\cartwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B39C37B5-9CAA-483F-AD2E-D23D6D71CE03}|TestProject_Food_delivery\\TestProject_Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\testproject_food_delivery\\ordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,10 +130,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\guestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\guestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\food_delivery.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\food_delivery.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -130,10 +138,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|solutionrelative:food_delivery\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27107198-C65C-417D-9099-ABC517AD7276}|Food_delivery\\Food_delivery.csproj|c:\\xai\\2 course\\2 semestr\\oop_vs\\oop_project_vs\\food_delivery\\food_delivery\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -190,76 +194,8 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaymentWindow.xaml.cs",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\PaymentWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Food_delivery\\PaymentWindow.xaml.cs",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\PaymentWindow.xaml.cs",
-              "RelativeToolTip": "Food_delivery\\PaymentWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA9wEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T20:26:56.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\User.cs",
-              "RelativeDocumentMoniker": "Food_delivery\\User.cs",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\User.cs",
-              "RelativeToolTip": "Food_delivery\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T14:04:26.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Payment.cs",
-              "RelativeDocumentMoniker": "Food_delivery\\Payment.cs",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Payment.cs",
-              "RelativeToolTip": "Food_delivery\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:49:32.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Food_delivery\\MainWindow.xaml",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\MainWindow.xaml",
-              "RelativeToolTip": "Food_delivery\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-13T09:25:08.696Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Order.cs",
-              "RelativeDocumentMoniker": "Food_delivery\\Order.cs",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Order.cs",
-              "RelativeToolTip": "Food_delivery\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T18:02:17.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Menu.cs",
               "RelativeDocumentMoniker": "Food_delivery\\Menu.cs",
@@ -272,85 +208,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Order.cs",
+              "RelativeDocumentMoniker": "Food_delivery\\Order.cs",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Order.cs",
+              "RelativeToolTip": "Food_delivery\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:02:17.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Payment.cs",
+              "RelativeDocumentMoniker": "Food_delivery\\Payment.cs",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Payment.cs",
+              "RelativeToolTip": "Food_delivery\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:49:32.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentWindow.xaml.cs",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\PaymentWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Food_delivery\\PaymentWindow.xaml.cs",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\PaymentWindow.xaml.cs",
+              "RelativeToolTip": "Food_delivery\\PaymentWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:26:56.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\User.cs",
+              "RelativeDocumentMoniker": "Food_delivery\\User.cs",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\User.cs",
+              "RelativeToolTip": "Food_delivery\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:04:26.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Food_delivery\\MainWindow.xaml.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\MainWindow.xaml.cs",
               "RelativeToolTip": "Food_delivery\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAowI4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T09:25:34.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "IPayment1.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\IPayment1.cs",
               "RelativeDocumentMoniker": "Food_delivery\\IPayment1.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\IPayment1.cs",
               "RelativeToolTip": "Food_delivery\\IPayment1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T19:05:54.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "IOrderProcessor.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\IOrderProcessor.cs",
               "RelativeDocumentMoniker": "Food_delivery\\IOrderProcessor.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\IOrderProcessor.cs",
               "RelativeToolTip": "Food_delivery\\IOrderProcessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T15:39:10.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "IAuthenticable.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\IAuthenticable.cs",
               "RelativeDocumentMoniker": "Food_delivery\\IAuthenticable.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\IAuthenticable.cs",
               "RelativeToolTip": "Food_delivery\\IAuthenticable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T14:04:45.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "GuestWindow.xaml.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\GuestWindow.xaml.cs",
               "RelativeDocumentMoniker": "Food_delivery\\GuestWindow.xaml.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\GuestWindow.xaml.cs",
               "RelativeToolTip": "Food_delivery\\GuestWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T16:02:12.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "FoodItem.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\FoodItem.cs",
               "RelativeDocumentMoniker": "Food_delivery\\FoodItem.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\FoodItem.cs",
               "RelativeToolTip": "Food_delivery\\FoodItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T15:40:22.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Delivery.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Delivery.cs",
               "RelativeDocumentMoniker": "Food_delivery\\Delivery.cs",
@@ -363,72 +351,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "CustomerWindow.xaml.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CustomerWindow.xaml.cs",
               "RelativeDocumentMoniker": "Food_delivery\\CustomerWindow.xaml.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CustomerWindow.xaml.cs",
               "RelativeToolTip": "Food_delivery\\CustomerWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T09:26:50.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Customer.cs",
               "RelativeDocumentMoniker": "Food_delivery\\Customer.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Customer.cs",
               "RelativeToolTip": "Food_delivery\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T15:41:07.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "CartWindow.xaml.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CartWindow.xaml.cs",
               "RelativeDocumentMoniker": "Food_delivery\\CartWindow.xaml.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CartWindow.xaml.cs",
               "RelativeToolTip": "Food_delivery\\CartWindow.xaml.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAADwv7EAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T10:38:24.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CartItem.cs",
               "RelativeDocumentMoniker": "Food_delivery\\CartItem.cs",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CartItem.cs",
               "RelativeToolTip": "Food_delivery\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T10:24:54.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdminWindow.xaml.cs",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AdminWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Food_delivery\\AdminWindow.xaml.cs",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AdminWindow.xaml.cs",
-              "RelativeToolTip": "Food_delivery\\AdminWindow.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwGYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Food_delivery\\AssemblyInfo.cs",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AssemblyInfo.cs",
+              "RelativeToolTip": "Food_delivery\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:26:18.724Z",
+              "WhenOpened": "2025-05-05T14:56:45.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Admin.cs",
               "RelativeDocumentMoniker": "Food_delivery\\Admin.cs",
@@ -441,43 +429,71 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Food_delivery\\MainWindow.xaml",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\MainWindow.xaml",
+              "RelativeToolTip": "Food_delivery\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T09:25:08.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GuestWindow.xaml",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\GuestWindow.xaml",
+              "RelativeDocumentMoniker": "Food_delivery\\GuestWindow.xaml",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\GuestWindow.xaml",
+              "RelativeToolTip": "Food_delivery\\GuestWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T09:27:23.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "orders.json",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\bin\\Debug\\net9.0-windows\\orders.json",
+              "RelativeDocumentMoniker": "Food_delivery\\bin\\Debug\\net9.0-windows\\orders.json",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\bin\\Debug\\net9.0-windows\\orders.json",
+              "RelativeToolTip": "Food_delivery\\bin\\Debug\\net9.0-windows\\orders.json",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAAMwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T10:11:27.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "PaymentWindow.xaml",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\PaymentWindow.xaml",
               "RelativeDocumentMoniker": "Food_delivery\\PaymentWindow.xaml",
               "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\PaymentWindow.xaml",
               "RelativeToolTip": "Food_delivery\\PaymentWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-15T20:25:50.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T20:25:50.691Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "CartWindow.xaml",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CartWindow.xaml",
-              "RelativeDocumentMoniker": "Food_delivery\\CartWindow.xaml",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CartWindow.xaml",
-              "RelativeToolTip": "Food_delivery\\CartWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-13T10:33:42.929Z",
-              "EditorCaption": ""
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Food_delivery\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "Food_delivery\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:26:18.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AdminWindow.xaml",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AdminWindow.xaml",
-              "RelativeDocumentMoniker": "Food_delivery\\AdminWindow.xaml",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AdminWindow.xaml",
-              "RelativeToolTip": "Food_delivery\\AdminWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-13T09:24:51.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CustomerWindow.xaml",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CustomerWindow.xaml",
               "RelativeDocumentMoniker": "Food_delivery\\CustomerWindow.xaml",
@@ -489,7 +505,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
+              "Title": "CartWindow.xaml",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CartWindow.xaml",
+              "RelativeDocumentMoniker": "Food_delivery\\CartWindow.xaml",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\CartWindow.xaml",
+              "RelativeToolTip": "Food_delivery\\CartWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T10:33:42.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "Food_delivery\\AdminWindow.xaml",
+              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AdminWindow.xaml",
+              "RelativeToolTip": "Food_delivery\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T09:24:51.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "OrderTest.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\OrderTest.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\OrderTest.cs",
@@ -497,12 +537,11 @@
               "RelativeToolTip": "TestProject_Food_delivery\\OrderTest.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAD4vxoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:02:26.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:02:26.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "IPaymentTest.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\IPaymentTest.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\IPaymentTest.cs",
@@ -510,12 +549,11 @@
               "RelativeToolTip": "TestProject_Food_delivery\\IPaymentTest.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:01:43.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:01:43.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "FoodItemTest.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\FoodItemTest.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\FoodItemTest.cs",
@@ -523,12 +561,11 @@
               "RelativeToolTip": "TestProject_Food_delivery\\FoodItemTest.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:00:58.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:00:58.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "CustomerTest.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\CustomerTest.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\CustomerTest.cs",
@@ -536,12 +573,11 @@
               "RelativeToolTip": "TestProject_Food_delivery\\CustomerTest.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAcwEsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:58:51.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:58:51.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Microsoft.NET.Sdk.DefaultItems.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
@@ -549,12 +585,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
               "ViewState": "AgIAAHEAAAAAAAAAAAAYwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-18T14:05:19.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T14:05:19.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "global.json",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\global.json",
               "RelativeDocumentMoniker": "global.json",
@@ -566,18 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "GuestWindow.xaml",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\GuestWindow.xaml",
-              "RelativeDocumentMoniker": "Food_delivery\\GuestWindow.xaml",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\GuestWindow.xaml",
-              "RelativeToolTip": "Food_delivery\\GuestWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-13T09:27:23.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Food_delivery.csproj",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\Food_delivery.csproj",
               "RelativeDocumentMoniker": "Food_delivery\\Food_delivery.csproj",
@@ -585,24 +609,11 @@
               "RelativeToolTip": "Food_delivery\\Food_delivery.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-31T16:27:22.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T16:27:22.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Food_delivery\\AssemblyInfo.cs",
-              "ToolTip": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\AssemblyInfo.cs",
-              "RelativeToolTip": "Food_delivery\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:56:45.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\Food_delivery\\App.xaml",
               "RelativeDocumentMoniker": "Food_delivery\\App.xaml",
@@ -614,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "MenuTest.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\MenuTest.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\MenuTest.cs",
@@ -622,12 +633,11 @@
               "RelativeToolTip": "TestProject_Food_delivery\\MenuTest.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAA3wD8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:02:13.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:02:13.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "PaymentTest.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\PaymentTest.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\PaymentTest.cs",
@@ -635,12 +645,11 @@
               "RelativeToolTip": "TestProject_Food_delivery\\PaymentTest.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwDcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:02:40.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:02:40.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "IOrderProcessorTest.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\IOrderProcessorTest.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\IOrderProcessorTest.cs",
@@ -648,12 +657,11 @@
               "RelativeToolTip": "TestProject_Food_delivery\\IOrderProcessorTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:01:30.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:01:30.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "DeliveryTest.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\DeliveryTest.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\DeliveryTest.cs",
@@ -661,12 +669,11 @@
               "RelativeToolTip": "TestProject_Food_delivery\\DeliveryTest.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:00:38.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:00:38.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "AdminTest.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\AdminTest.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\AdminTest.cs",
@@ -674,12 +681,11 @@
               "RelativeToolTip": "TestProject_Food_delivery\\AdminTest.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAmwFkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:56:00.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:56:00.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -691,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -703,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "MSTestSettings.cs",
               "DocumentMoniker": "C:\\XAI\\2 course\\2 semestr\\oop_vs\\OOP_Project_VS\\Food_delivery\\TestProject_Food_delivery\\MSTestSettings.cs",
               "RelativeDocumentMoniker": "TestProject_Food_delivery\\MSTestSettings.cs",

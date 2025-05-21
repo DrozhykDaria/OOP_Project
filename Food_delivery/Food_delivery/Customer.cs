@@ -29,7 +29,6 @@ namespace Food_delivery
             Password = "1234";
             IsAuthenticated = false;
         }
-
         public string CheckStatus()
         {
             return IsAuthenticated ? "Користувач автентифікований" : "Користувач неавтентифікований";

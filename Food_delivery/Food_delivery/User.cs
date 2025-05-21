@@ -21,7 +21,6 @@ namespace Food_delivery
         {
             Id = ++Counter;
         }
-
         public abstract bool Authenticate(string email, string password);
     }
 }

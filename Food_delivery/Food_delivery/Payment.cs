@@ -12,16 +12,14 @@ namespace Food_delivery
 
         public Payment()
         {
-            Status = "NotStarted"; // Початковий статус
+            Status = "NotStarted"; // початковий статус
         }
 
-        // Метод для отримання статусу платежу
+        // отримання статусу платежу
         public string GetStatus()
         {
             return Status;
         }
-
-        // Метод для встановлення статусу платежу
         public void SetStatus(string status)
         {
             if (string.IsNullOrWhiteSpace(status))
@@ -46,7 +44,7 @@ namespace Food_delivery
                 throw new ArgumentException("Payment method cannot be null or empty.");
             }
 
-            // Якщо всі перевірки пройшли успішно, платіж оброблено
+            // якщо перевірки пройшли успішно, платіж оброблено
             Status = "Success";
             return true;
         }
@@ -54,7 +52,7 @@ namespace Food_delivery
         // Перевизначення методу ProcessPayment згідно з інтерфейсом IPayment
         void IPayment.ProcessPayment(decimal amount, string paymentMethod)
         {
-            ProcessPayment(amount, paymentMethod);  // Виклик основного методу
+            ProcessPayment(amount, paymentMethod);
         }
     }
 }

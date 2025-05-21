@@ -41,11 +41,11 @@ namespace Food_delivery
                 processor.OrderPlaced += OnOrderPlaced;
             }
 
-            // 🔹 Демонстрація поліморфізму: вибір реалізації через інтерфейс
+            // демонстрація поліморфізму: вибір реалізації через інтерфейс
             if (paymentType == "Cash")
                 this.paymentProcessor = new CashPayment();
             else
-                this.paymentProcessor = new CardPayment(); // за замовчуванням
+                this.paymentProcessor = new CardPayment(); 
 
             CartItemsList.ItemsSource = items;
         }
@@ -65,14 +65,13 @@ namespace Food_delivery
             decimal totalAmount = items.Sum(i => i.TotalPrice);
 
             var paymentWindow = new PaymentWindow(totalAmount);
-            paymentWindow.Owner = this; // задаємо батьківське вікно
+            paymentWindow.Owner = this;
             paymentWindow.ShowDialog();
 
             if (paymentWindow.PaymentSucceeded)
             {
-                // ✅ КРОК 10 — LINQ-аналітика перед створенням замовлення
-
-                // 🔹 Отримати дорогі страви (понад 100 грн)
+                //  LINQ-аналітика перед створенням замовлення
+                // отримати дорогі страви (понад 100 грн)
                 var expensiveItems = items.Where(i => i.TotalPrice > 200).ToList();
 
                 if (expensiveItems.Any())
@@ -82,7 +81,7 @@ namespace Food_delivery
                     MessageBox.Show(msg, "Попередження", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
 
-                // 🔹 Групування за назвою і підрахунок кількості
+                // групування за назвою і підрахунок кількості
                 var groupedByName = items.GroupBy(i => i.Item.Name)
                                          .Select(g => new { Name = g.Key, Quantity = g.Sum(x => x.Quantity) });
 
@@ -92,8 +91,6 @@ namespace Food_delivery
                     groupedInfo.AppendLine($"{g.Name}: {g.Quantity} шт.");
                 }
                 MessageBox.Show(groupedInfo.ToString(), "Зведення по замовленню");
-
-                // ✅ Створюємо замовлення після успішної оплати
                 var foodItems = items.Select(i => i.Item).Where(f => f != null).ToList();
 
                 var order = new Order
@@ -156,7 +153,7 @@ namespace Food_delivery
 
         private void OrderAgain_Click(object sender, RoutedEventArgs e)
         {
-            cart.Clear(); // Очистити кошик для нового замовлення
+            cart.Clear(); 
             var customerWindow = new CustomerWindow(cart, customer, menu);
             customerWindow.Show();
             this.Close();

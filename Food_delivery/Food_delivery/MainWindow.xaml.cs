@@ -18,7 +18,6 @@ namespace Food_delivery
         {
             InitializeComponent();
 
-            // Створюємо тестового клієнта
             var testCustomer = new Customer()
             {
                 Email = "drozhyk@gmail.com",
@@ -27,7 +26,6 @@ namespace Food_delivery
                 LastName = "Дрожик"
             };
 
-            // Створюємо тестового адміністратора
             admin = new Admin()
             {
                 Email = "drozhykdaria@gmail.com",

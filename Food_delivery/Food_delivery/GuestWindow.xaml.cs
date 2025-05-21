@@ -26,7 +26,6 @@ namespace Food_delivery
             InitializeComponent();
             this.menu = menu;
 
-            // Очистити список перед додаванням
             MenuList.Items.Clear();
 
             foreach (var item in menu.Items)
@@ -35,13 +34,11 @@ namespace Food_delivery
             }
         }
 
-        // Обробка кліку по страві
         private void MenuList_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             MessageBox.Show("Щоб замовити страву, потрібно зареєструватися або увійти!", "Доступ обмежено", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
-        // Повернення до головного вікна
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             var mainWin = new MainWindow();

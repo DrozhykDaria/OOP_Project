@@ -21,7 +21,6 @@ namespace Food_delivery
         {
             Console.WriteLine($"Order {orderNumber} is now {status}");
 
-            // Викликаємо подію
             OrderPlaced?.Invoke(new Order
             {
                 OrderNumber = orderNumber,

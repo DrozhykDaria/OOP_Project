@@ -42,7 +42,6 @@ namespace Food_delivery
             }
         }
 
-        // Ось обробник події SelectionChanged, який повинен бути у коді
         private void PaymentMethodComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             UpdateCardFieldsVisibility();

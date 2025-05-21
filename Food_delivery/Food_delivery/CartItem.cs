@@ -18,10 +18,10 @@ namespace Food_delivery
     {
         public List<CartItem> Items { get; private set; } = new();
 
-        // 🔸 Делегат для події
+        // Делегат для події
         public delegate void ItemAddedEventHandler(object sender, CartItem newItem);
 
-        // 🔸 Подія, що буде викликатись при додаванні елемента
+        // подія, що буде викликатись при додаванні елемента
         public event ItemAddedEventHandler ItemAdded;
 
         public void AddItem(FoodItem item, int quantity = 1)
@@ -31,7 +31,7 @@ namespace Food_delivery
             {
                 existing.Quantity += quantity;
 
-                // 🔸 Подія також викликається при оновленні кількості
+                // Подія також викликається при оновленні кількості
                 ItemAdded?.Invoke(this, existing);
             }
             else

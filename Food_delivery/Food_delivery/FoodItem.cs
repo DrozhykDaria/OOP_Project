@@ -48,7 +48,6 @@ namespace Food_delivery
         {
             return Price;
         }
-
         public override string ToString() => $"{Name} - {Price} грн";
     }
 
