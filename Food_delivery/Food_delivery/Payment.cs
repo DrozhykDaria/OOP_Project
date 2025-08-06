@@ -15,7 +15,7 @@ namespace Food_delivery
             Status = "NotStarted"; // початковий статус
         }
 
-        // отримання статусу платежу
+        // Статус оплати
         public string GetStatus()
         {
             return Status;
