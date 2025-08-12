@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Food_delivery
 {
-    public abstract class User : IAuthenticable
+    public abstract class User : IAuthenticable //абстрактний клас User, який реалізує інтерфейс IAuthenticable
     {
         public static int Counter = 0;
         public int Id { get; }
