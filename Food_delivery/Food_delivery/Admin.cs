@@ -15,7 +15,7 @@ namespace Food_delivery
             return email == Email && password == Password;
         }
 
-        public bool ManageUsers(List<Customer> users)
+        public bool ManageUsers(List<Customer> users) // Фікс для метода ManageUsers
         {
             return users != null && users.Count > 0;
         }

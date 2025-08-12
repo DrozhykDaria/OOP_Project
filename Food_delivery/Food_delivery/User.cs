@@ -10,7 +10,7 @@ namespace Food_delivery
     {
         public static int Counter = 0;
         public int Id { get; }
-        public string Email { get; set; }
+        public string Email { get; set; } 
         public string Password { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
